@@ -1,4 +1,6 @@
-package Array;/*   Created by IntelliJ IDEA.
+package Array;
+
+/*   Created by IntelliJ IDEA.
  *   Author: Hemant Mudgal
  *   Date: 06-03-2022
  *   Time: 17:04
