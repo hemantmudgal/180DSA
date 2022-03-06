@@ -7,8 +7,12 @@ package Array;
  *   File: Array.SetMatrixZeros.java
  */
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class SetMatrixZeros {
-    public void setZeroes(int[][] matrix) {
+    public static void setZeroes(int[][] matrix) {
         int col0=1;
         int col = matrix[0].length;
         int row = matrix.length;
@@ -35,6 +39,19 @@ public class SetMatrixZeros {
                 matrix[i][0] = 0;
             }
         }
+
+    }
+
+    public static void print2DArray(int[][] array){
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(Arrays.toString(array[i]));
+        }
+    }
+
+    public static void main(String[] args) {
+        int[][] twoDMatrix = {{1,2,3}, {1, 0, 2},{6,3,2}};
+        setZeroes(twoDMatrix);
+        print2DArray(twoDMatrix);
 
     }
 }
