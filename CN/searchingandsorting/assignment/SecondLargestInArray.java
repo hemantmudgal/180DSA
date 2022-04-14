@@ -16,6 +16,10 @@ public class SecondLargestInArray {
     }
 
     public static int secondLargestElement(int[] array){
+
+        if(array.length < 2)
+            return Integer.MIN_VALUE;
+
         int maximum = array[0];
         int secondLargest = -Integer.MIN_VALUE;
         for (int i = 1; i < array.length; i++) {
