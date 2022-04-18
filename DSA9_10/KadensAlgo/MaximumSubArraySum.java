@@ -5,7 +5,7 @@
  *   File: MaximumSubArraySum.java
  */
 
-package DSA9_10;
+package DSA9_10.KadensAlgo;
 
 public class MaximumSubArraySum {
     public static long maxSubarraySum(int[] arr, int n) {
