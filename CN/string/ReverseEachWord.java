@@ -28,14 +28,14 @@ public class ReverseEachWord {
 				currentWordStart = i + 1;
 			}
 		}
-//		
-//		int currentWordEnd = i - 1;
-//		String reverseString = "";
-//		for(int j=currentWordStart;j<=currentWordEnd;j++) {
-//			reverseString = str.charAt(j) + reverseString;
-//		}
-//		
-//		result += reverseString;
+
+		int currentWordEnd = i - 1;
+		String reverseString = "";
+		for(int j=currentWordStart;j<=currentWordEnd;j++) {
+			reverseString = str.charAt(j) + reverseString;
+		}
+
+		result += reverseString;
 		return result;
 	}
 		
