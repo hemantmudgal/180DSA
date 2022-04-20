@@ -5,7 +5,7 @@
  *   File: BubbleSort.java
  */
 
-package CN.searchingandsorting;
+package CN.searchingAndSorting;
 
 import java.util.Arrays;
 

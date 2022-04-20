@@ -1,4 +1,4 @@
-package CN.searchingandsorting.assignment;
+package CN.searchingAndSorting.assignment;
 
 public class CheckArrayRotationIndex {
 

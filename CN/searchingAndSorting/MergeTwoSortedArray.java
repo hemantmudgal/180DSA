@@ -5,7 +5,7 @@
  *   File: MergerTwoSortedArray.java
  */
 
-package CN.searchingandsorting;
+package CN.searchingAndSorting;
 
 import java.util.Arrays;
 import java.util.Scanner;

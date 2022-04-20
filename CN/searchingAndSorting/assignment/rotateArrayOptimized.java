@@ -5,7 +5,7 @@
  *   File: rotateArrayOptimized.java
  */
 
-package CN.searchingandsorting.assignment;
+package CN.searchingAndSorting.assignment;
 
 import java.util.Arrays;
 

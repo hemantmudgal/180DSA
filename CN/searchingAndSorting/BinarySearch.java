@@ -5,9 +5,7 @@
  *   File: BinarySearch.java
  */
 
-package CN.searchingandsorting;
-
-import java.util.Scanner;
+package CN.searchingAndSorting;
 
 public class BinarySearch {
     public static int binarySearch(int[] array, int value) {
