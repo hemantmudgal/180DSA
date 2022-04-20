@@ -5,7 +5,7 @@
  *   File: NextPermutation.java
  */
 
-package Array;
+package leetcode.Array;
 
 import java.util.Arrays;
 

@@ -6,7 +6,7 @@
  */
 
 
-package Array;
+package leetcode.Array;
 
 import java.util.*;
 

@@ -1,10 +1,10 @@
-package Array;
+package leetcode.Array;
 
 /*   Created by IntelliJ IDEA.
  *   Author: Hemant Mudgal
  *   Date: 06-03-2022
  *   Time: 17:04
- *   File: Array.SetMatrixZeros.java
+ *   File: leetcode.Array.SetMatrixZeros.java
  */
 
 import java.lang.reflect.Array;
