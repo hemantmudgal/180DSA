@@ -5,7 +5,7 @@
  *   File: InsertionSort.java
  */
 
-package CN.searchingAndSorting;
+package CN.searchingandsorting;
 
 import java.util.Arrays;
 

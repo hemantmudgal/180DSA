@@ -11,7 +11,11 @@ import java.util.Arrays;
 
 public class RowWiseSum {
     public static int[] rowSum(int[][] array) {
-        int[] arraySum = new int[array.length];
+        int[] arraySum = {0};
+        if (arraySum.length == 0) {
+            return arraySum;
+        }
+        arraySum = new int[array.length];
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 arraySum[i] += array[i][j];

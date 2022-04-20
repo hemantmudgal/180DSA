@@ -1,4 +1,4 @@
-package CN.searchingAndSorting.assignment;
+package CN.searchingandsorting.assignment;
 
 import java.util.Arrays;
 

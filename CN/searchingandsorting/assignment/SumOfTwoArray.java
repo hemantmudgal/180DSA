@@ -5,7 +5,7 @@
  *   File: SumOfTwoArray.java
  */
 
-package CN.searchingAndSorting.assignment;
+package CN.searchingandsorting.assignment;
 
 public class SumOfTwoArray {
     public static void sumOfTwoArray(int[] array1, int[] array2) {

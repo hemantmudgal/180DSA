@@ -5,7 +5,7 @@
  *   File: Sort012.java
  */
 
-package CN.searchingAndSorting.assignment;
+package CN.searchingandsorting.assignment;
 
 import java.util.Arrays;
 

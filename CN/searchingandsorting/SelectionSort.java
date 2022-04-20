@@ -5,7 +5,7 @@
  *   File: SeclectionSort.java
  */
 
-package CN.searchingAndSorting;
+package CN.searchingandsorting;
 
 import java.util.Arrays;
 
