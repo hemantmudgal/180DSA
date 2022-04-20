@@ -5,7 +5,7 @@
  *   File: CheckArrayRotation.java
  */
 
-package CN.searchingandsorting.assignment;
+package CN.searchingAndSorting.assignment;
 
 public class CheckArrayRotation {
 
