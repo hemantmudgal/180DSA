@@ -30,7 +30,7 @@ public class TotalSumOnTheBoundariesAndDiagonal {
 
         for (int i = 1; i < array.length-1; i++) {
             for (int j = array[0].length-2; j >=1 ; j--) {
-                if (i != j) {
+                if (i != j && i+j == array.length -1 ) {
                     sum += array[i][j];
                 }
             }
