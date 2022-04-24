@@ -29,4 +29,9 @@ public class ArrayEquilibriumIndex {
         }
         return -1;
     }
+
+    public static void main(String[] args) {
+        int[] array = {2,3,10,-10,4,2,9};
+        System.out.println(arrayEquilibriumIndex(array));;
+    }
 }
