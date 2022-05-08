@@ -23,8 +23,21 @@ public class ArraySortedOrNot {
         return smallAns;
     }
 
+    public static boolean checkSortedBetter(int[] array, int startIndex){
+        if(startIndex == array.length -1 ){
+            return true;
+        }
+
+        if(array[startIndex] > array[startIndex + 1]){
+            return false;
+        }
+
+        boolean smallAns = checkSortedBetter(array, startIndex + 1);
+        return smallAns;
+    }
+
     public static void main(String[] args) {
-        int[] array = {2,1,2,3,4,5};
-        System.out.println(checkSorted(array));
+        int[] array = {1,2,3,4,5};
+        System.out.println(checkSortedBetter(array,0));
     }
 }
