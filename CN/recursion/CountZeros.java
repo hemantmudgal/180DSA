@@ -7,26 +7,33 @@
 
 package CN.recursion;
 
+import java.util.Scanner;
+
 public class CountZeros {
 
     public static int count = 0;
 
-    public static int countZerosRecursive(int[] array, int startIndex) {
-        if(startIndex == array.length){
-            return 0;
+    public static int countZerosRecursive(int value) {
+
+        if(value < 10){
+            if(value == 0){
+                return 1;
+            }else{
+                return 0;
+            }
         }
 
-        if(array[startIndex] == 0){
-            count++;
+        if(value % 10 == 0){
+            count = countZerosRecursive(value/10)+1;
+        }else{
+            count = countZerosRecursive(value/10);
         }
-
-        int smallAns = countZerosRecursive(array,startIndex+1);
-
         return count;
     }
 
     public static void main(String[] args) {
-        int[] array = {1,1,1,1,1,1,1,3,1};
-        System.out.println(countZerosRecursive(array,0));
+        Scanner sc = new Scanner(System.in);
+        int value = sc.nextInt();
+        System.out.println(countZerosRecursive(value));
     }
 }
