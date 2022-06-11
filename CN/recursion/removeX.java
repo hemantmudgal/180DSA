@@ -9,13 +9,13 @@ package CN.recursion;
 
 public class removeX {
 
-    public static String removeX(String str){
+    public static String removeAllX(String str){
         String mainString;
         if(str.length() == 0){
             return"";
         }
 
-        String smallAns = removeX(str.substring(1));
+        String smallAns = removeAllX(str.substring(1));
         if(str.charAt(0) == 'x'){
             mainString = smallAns;
         }else{
@@ -25,6 +25,6 @@ public class removeX {
     }
     public static void main(String[] args){
         String str = "xaxb";
-        System.out.println(removeX(str));;
+        System.out.println(removeAllX(str));
     }
 }
