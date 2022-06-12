@@ -11,8 +11,8 @@ public class removeX {
 
     public static String removeAllX(String str){
         String mainString;
-        if(str.length() == 0){
-            return"";
+        if(str.length() <= 0){
+            return str;
         }
 
         String smallAns = removeAllX(str.substring(1));
