@@ -58,7 +58,7 @@ public class ReturnKeypadCode {
     }
 
     public static void main(String[] args) {
-        int value = 23;
+        int value = 234;
         String[] array = findKeypadSubSequences(value);
         System.out.println(Arrays.toString(array));
     }
