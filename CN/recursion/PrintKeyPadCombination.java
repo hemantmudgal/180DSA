@@ -37,7 +37,7 @@ public class PrintKeyPadCombination {
 
     public static void printKeyPad(int input, String output){
         if(input == 0){
-            System.out.println(output);
+            System.out.print(output + " ");
             return;
         }
         int lastNumber = input % 10;
@@ -50,7 +50,7 @@ public class PrintKeyPadCombination {
     }
 
     public static void main(String[] args){
-        int input = 23;
+        int input = 234;
         printKeyPad(input, "");
     }
 }
