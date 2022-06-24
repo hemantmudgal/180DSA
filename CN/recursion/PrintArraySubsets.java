@@ -8,13 +8,8 @@
 package CN.recursion;
 
 public class PrintArraySubsets {
-    public static void findAllSubsets(int[] array){
-        int index = 0;
-        int[] output = {};
-        findAllSubsets(array,index,output);
-    }
 
-    public static void findAllSubsets(int[] array, int index,int output[]){
+    public static void findArraySubsets(int[] array, int index, int[] output){
         if(index == array.length){
             for (int i : output) {
                 System.out.print(i + " ");
@@ -29,12 +24,17 @@ public class PrintArraySubsets {
             newOutput[i] = output[i];
         }
         newOutput[i] = array[index];
-        findAllSubsets(array,index+1,output);
-        findAllSubsets(array,index+1,newOutput);
+        findArraySubsets(array,index+1,output);
+        findArraySubsets(array,index+1,newOutput );
     }
 
-    public static void main(String[] args){
+    public static void findArraySubsets(int[] array, int index){
+        int[] output = {};
+        findArraySubsets(array,index,output);
+    }
+
+    public static void main(String[] args) {
         int[] array = {15,12,20};
-        findAllSubsets(array);
+        findArraySubsets(array, 0);
     }
 }
