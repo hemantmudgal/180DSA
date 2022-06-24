@@ -36,11 +36,12 @@ public class ReturnSubsetSumToK {
         }
 
         for (int i = 0; i < smallAns1.length; i++) {
-            output[k+i] = new int[smallAns1[i].length + 1];
-            output[k+i][0] = array[index];
+            output[k] = new int[smallAns1[i].length + 1];
+            output[k][0] = array[index];
             for (int j = 1; j <= smallAns1[i].length; j++) {
-                output[k+i][j] = smallAns1[i][j-1];
+                output[k][j] = smallAns1[i][j-1];
             }
+            k++;
         }
         return  output;
     }
