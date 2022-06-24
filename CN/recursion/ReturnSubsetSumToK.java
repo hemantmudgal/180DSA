@@ -48,7 +48,8 @@ public class ReturnSubsetSumToK {
 
     public static void main(String[] args) {
         int[] array = {1,2,3,4,5};
-        int sum = 5;        int[][] output = findSubsets(array, sum);
+        int sum = 5;
+        int[][] output = findSubsets(array, sum);
         for (int i = 0; i < output.length; i++) {
             for (int j = 0; j < output[i].length; j++) {
                 System.out.print(output[i][j] + " ");
