@@ -45,8 +45,33 @@ public class Main {
         output.print();
     }
 
+    public static void dynamicArray(){
+        DynamicArray dynamicArray = new DynamicArray();
+        dynamicArray.add(1);
+        dynamicArray.add(2);
+        dynamicArray.add(3);
+        dynamicArray.add(4);
+        dynamicArray.add(5);
+        dynamicArray.add(6);
+        dynamicArray.add(7);
+        dynamicArray.add(9);
+        dynamicArray.print();
+        System.out.println(dynamicArray.isEmpty());
+        System.out.println(dynamicArray.getData(2));
+        dynamicArray.setData(2,2);
+        dynamicArray.print();
+        dynamicArray.removeLast();
+        dynamicArray.print();
+        System.out.println(dynamicArray.size());
+    }
+
     public static void main(String[] args) {
-//        fraction();
-            complexNumber();
+        fraction();
+        System.out.println();
+        System.out.println();
+        complexNumber();
+        System.out.println();
+        System.out.println();
+        dynamicArray();
     }
 }
