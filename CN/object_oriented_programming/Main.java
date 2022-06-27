@@ -7,7 +7,7 @@
 
 package CN.object_oriented_programming;
 
-public class CheckerClass {
+public class Main {
 
     public static void fraction(){
         Fraction fraction1 = new Fraction(3,5);
