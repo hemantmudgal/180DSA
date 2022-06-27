@@ -7,8 +7,9 @@
 
 package CN.object_oriented_programming;
 
-public class checkClass {
-    public static void main(String[] args) {
+public class CheckerClass {
+
+    public static void fraction(){
         Fraction fraction1 = new Fraction(3,5);
         fraction1.print();
         System.out.println(fraction1.getNumerator());
@@ -23,5 +24,29 @@ public class checkClass {
         fraction2 = new Fraction(1,2);
         Fraction output = Fraction.add(fraction1,fraction2);
         output.print();
+    }
+
+    public static void complexNumber(){
+        ComplexNumber cn = new ComplexNumber(1,2);
+        cn.print();
+        cn.setImaginaryPart(1);
+        cn.setRealPart(2);
+        System.out.println(cn.getRealPart());
+        System.out.println(cn.getImaginaryPart());
+        cn.print();
+        ComplexNumber cn2 = new ComplexNumber(2,1);
+        cn.add(cn2);
+        cn.print();
+        cn.multiply(cn2);
+        cn.print();
+        cn.conjugate();
+        cn.print();
+        ComplexNumber output = ComplexNumber.add(cn,cn2);
+        output.print();
+    }
+
+    public static void main(String[] args) {
+//        fraction();
+            complexNumber();
     }
 }
