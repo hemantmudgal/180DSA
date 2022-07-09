@@ -5,7 +5,7 @@
  *   File: Board.java
  */
 
-package CN.object_oriented_programming.games;
+package CN.object_oriented_programming.games.tictactoe;
 
 public class Board {
     private char[][] board;

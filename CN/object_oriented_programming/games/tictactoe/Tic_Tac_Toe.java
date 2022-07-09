@@ -5,7 +5,7 @@
  *   File: Tic_Tac_Toe.java
  */
 
-package CN.object_oriented_programming.games;
+package CN.object_oriented_programming.games.tictactoe;
 
 import java.util.Scanner;
 

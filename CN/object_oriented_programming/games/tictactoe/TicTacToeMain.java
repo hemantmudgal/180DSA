@@ -5,7 +5,7 @@
  *   File: TicTacToeMain.java
  */
 
-package CN.object_oriented_programming.games;
+package CN.object_oriented_programming.games.tictactoe;
 
 public class TicTacToeMain {
     public static void main(String[] args) {

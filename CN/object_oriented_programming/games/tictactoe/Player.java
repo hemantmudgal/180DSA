@@ -5,7 +5,7 @@
  *   File: Players.java
  */
 
-package CN.object_oriented_programming.games;
+package CN.object_oriented_programming.games.tictactoe;
 
 public class Player {
     private String name;
